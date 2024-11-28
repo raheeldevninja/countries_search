@@ -55,7 +55,7 @@ class _CountriesSearchScreenState extends State<CountriesSearchScreen> {
             ),
           ),
 
-          //countries listview or
+          //countries listview
           Expanded(
             child: countryProvider.isLoading
                 ? const Center(child: CircularProgressIndicator())
